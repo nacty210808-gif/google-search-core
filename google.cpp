@@ -15,7 +15,6 @@ int main() {
     std::cout << "Запрос: \"" << query << "\"" << std::endl;
     std::cout << "-------------------------------" << std::endl;
     renderImageAnswer();
-    // [СЕКЦИЯ ВЫВОДА РЕЗУЛЬТАТОВ ПОИСКА]
     std::cout << " " << std::endl;
     std::cout << "Найдено результатов: 1 420 000 (за 0.042 сек)" << std::endl;
     return 0;
